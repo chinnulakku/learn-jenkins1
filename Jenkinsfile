@@ -8,7 +8,7 @@ pipeline {
         Greeting = ' Hello Jenkins'
     }
     options {
-        timout(time: 1, unit: 'SECONDS')
+        timout(time: 1, unit: 'SECOND')
     }
     //build
     stages {
