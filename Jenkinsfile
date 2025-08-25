@@ -60,7 +60,7 @@ pipeline {
             }
         }
     }
-    // pos build
+    //pos build
     post {
         always {
             echo 'I will always say Hello again!'
